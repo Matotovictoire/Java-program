@@ -5,6 +5,7 @@ public class OctalToHexa {
         System.err.println("Enter an Octal Number =");
         String inputNumber = sc.nextLine();
         OctToHex(inputNumber);
+        sc.close();
 
     }
     //user defined method to convert the octal number into hexadecimal number
@@ -16,5 +17,6 @@ public class OctalToHexa {
         //now convert Decimal number to Hexadecimal number and store it into that variable
         String hexadecimalNumber = Integer.toHexString(decimalNumber);
         System.out.println("The Hexadecimal value of " + octalNumber + " is " +hexadecimalNumber);
+        
     }
 }

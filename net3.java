@@ -17,5 +17,6 @@ public class net3 {
                 System.out.println("the ip you entered isn't up");
             }
         }catch (Exception e){System.out.println(e);}
+        scan.close();
     }
 }

@@ -15,5 +15,6 @@ public class Marks {
         }else{
              System.out.println("You failed");
          }
+        sc.close();
     }
 }

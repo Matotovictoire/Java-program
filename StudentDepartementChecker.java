@@ -48,5 +48,6 @@ public class StudentDepartementChecker {
         } else {
             System.out.println("Invalid student Id. Please try again");
         }
+        scanner.close();
     }
 }

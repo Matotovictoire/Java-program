@@ -13,5 +13,7 @@ public class CheckAge{
         //but once you do, it can make your code more concise and readable.
         String result = (age > 20) ? "You're Old" : "You're so young";
         System.out.println(result);
+        ag.close();
     }
+
 }

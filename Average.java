@@ -15,5 +15,6 @@ public class Average {
         }else{
             System.out.println("You're transfered to accounting");
         }
+        mark.close();
     }
 }
