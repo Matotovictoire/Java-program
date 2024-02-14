@@ -33,6 +33,7 @@ public class PercentGrade {
         }else{
             System.out.println("Grade F");
         }
+        System.out.println("Your percentage is: " + percentage +"%");
         marks.close();
     }
 }
